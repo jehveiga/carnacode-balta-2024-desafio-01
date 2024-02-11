@@ -9,6 +9,10 @@
 	margin: 0 auto;
 }
 
+.texto{
+	justify-content: center;
+}
+
 .modal-content {
 	display: flex;
 	flex-direction: column;

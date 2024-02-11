@@ -103,12 +103,12 @@ body {
 		margin-right: 20px;
 	}
 
-	div .group-idade {
+	div .group-checkbox {
 		justify-content: flex-start;
 	}
 }
 
-.group-idade {
+.group-checkbox {
 	margin-left: 10px;
 }
 
