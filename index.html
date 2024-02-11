@@ -8,23 +8,40 @@
   </head>
 
   <body>
-    <section>
+    <form>
       <div>
-        <h1>Cálculo de IMC</h1>
+        <h1 class="flex">Cálculo de IMC</h1>
       </div>
       <div class="">
-        <div><input class="input" type="text" placeholder="Altura" /></div>
-        <div><input class="input" type="text" placeholder="Peso" /></div>
-        <div><input class="input" type="text" placeholder="Sexo" /></div>
+        <div>
+          <input class="input-forms" type="number" placeholder="Altura" />
+        </div>
+        <div>
+          <input class="input-forms" type="number" placeholder="Peso" />
+        </div>
+        <div>
+          <select class="select-sexo input-forms" placeholder="Sexo">
+            <option value="M">Masculino</option>
+            <option value="F">Feminino</option>
+          </select>
+        </div>
       </div>
       <div>
         <input class="input" type="radio" />
         <span class="span-idade65">Eu tenho 65 anos ou mais</span>
       </div>
-      <div>
-        <input class="input-calcular" type="button" value="Calcular meu IMC" />
+      <div class="flex flex-column">
+        <input
+          class="input input-calcular"
+          type="button"
+          value="Calcular meu IMC"
+        />
+        <input
+          class="input input-entenda"
+          type="button"
+          value="Entenda o cálculo"
+        />
       </div>
-      <div><input class="input" type="button" value="Entenda o cálculo" /></div>
-    </section>
+    </form>
   </body>
 </html>
