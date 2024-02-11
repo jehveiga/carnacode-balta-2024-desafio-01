@@ -6,7 +6,25 @@
     flex-direction: row;
 }
 
-.input-text {
+.input[type="text"] {
     background-color: #F6F6F6;
     border: 2px solid #BDBDBD;
+}
+
+.input[type="radio"] {
+    background-color: #F6F6F6;
+}
+
+.span-idade65{
+    color: #666666;
+}
+
+.input[type="button"]{
+    border-radius: 30px;
+}
+
+.input-calcular{
+    background-color: #45FEFE;
+    font-weight: bold;
+    border: none;
 }
