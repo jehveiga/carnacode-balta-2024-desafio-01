@@ -1,0 +1,25 @@
+:root {
+	--primary-color: #45fefe;
+	--white: #ffffff;
+	--black: #000000;
+	--grey01: #f6f6f6;
+	--grey02: #e8e8e8;
+	--grey03: #bdbdbd;
+	--grey04: #666666;
+	--brown: #522020;
+	--background-color-dark: #2e1462;
+	--background-color-light: var(--white);
+	--input-fill-color: var(--grey01);
+	--input-border-color: var(--grey02);
+	--placeholder-color: var(--grey03);
+	--text-color: var(--black)
+	--detail-text-color: var(--grey04)
+}
+
+.bg-light {
+	background-color: var(--background-color-light);
+}
+
+.bg-dark {
+	background-color: var(--background-color-dark);
+}
