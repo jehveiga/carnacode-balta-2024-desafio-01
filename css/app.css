@@ -1,5 +1,6 @@
 @import url("flex.css");
 @import url("colors.css");
+@import url("history.css");
 
 * {
 	margin: 0;
@@ -11,6 +12,7 @@ html {
 	height: 100dvh;
 	width: 100dvw;
 	position: relative;
+	min-width: 280px;
 }
 
 h1 {
@@ -18,8 +20,6 @@ h1 {
 }
 
 body {
-	margin: 0;
-	padding: 0;
 	height: 100dvh;
 	width: 100dvw;
 	position: relative;
@@ -30,6 +30,10 @@ body {
 	position: relative;
 	flex: 1;
 	padding: 4.2%;
+}
+
+.container-xs {
+	max-width: 375px;
 }
 
 .content {
@@ -151,41 +155,5 @@ h1 {
 
 	div .group-idade {
 		justify-content: flex-start;
-	}
-}
-
-input[type="search"] {
-	display: flex;
-	flex: 1;
-	height: 50px;
-	border-radius: 25px;
-	background-color: var(--input-fill-color);
-	border: 1px solid var(--input-border-color);
-	padding: 16px;
-	color: var(--placeholder-color);
-}
-
-::-webkit-input-placeholder {
-	/* Chrome/Opera/Safari */
-	color: var(--placeholder-color);
-}
-::-moz-placeholder {
-	/* Firefox 19+ */
-	color: var(--placeholder-color);
-}
-
-.default-logo {
-	display: flex;
-	align-items: center;
-	justify-content: center;
-	width: 95px;
-	height: 95px;
-	border-radius: 25px;
-	border-style: solid;
-	border-color: var(--primary-color);
-
-	img {
-		width: 80%;
-		height: 80%;
 	}
 }
