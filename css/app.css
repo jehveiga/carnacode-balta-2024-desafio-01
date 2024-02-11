@@ -1,10 +1,14 @@
-body{
+*{
     margin: 0;
     padding: 0;
+    font-family: 'Inter', sans-serif;
 }
 
-
 h1{
+    justify-content: center;
+}
+
+div .flex{
     justify-content: center;
 }
 
@@ -20,31 +24,35 @@ h1{
     flex-direction: column;
 }
 
+.flex-start{
+    justify-content: flex-start;
+}
+
 .input-forms {
     background-color: #F6F6F6;
     border: 1px solid #BDBDBD;
+    opacity: 0.5;
     border-radius: 5px;
     height: 50px;
     width: 343px;
-    margin: 10px 15px;
+    margin: 10px 5px;
+    padding-left: 5px;
 }
 
 .select-sexo{
     width: 350px;
-
-}
-
-.select-sexo option{
     color: #666666;
 }
 
-.input[type="radio"] {
-    background-color: #F6F6F6;
-    margin-left: 15px;
+.input[type="checkbox"] {
+    background-color: #666666;
+    margin-left: 10px;
+    opacity: 0.5;
 }
 
 .span-idade65{
     color: #666666;
+    opacity: 0.7;
 }
 
 .input[type="button"]{
@@ -62,11 +70,43 @@ h1{
 }
 
 .input-entenda{
-    border: 1px solid #45FEFE;
+    border: 2px solid #45FEFE;
     background-color: #FFFFFF;
     margin: 10px;
 }
 
 .input-calcular:hover {
-    background-color: #36bebe;
+    background-color: #35e6e6;
+    transition: 0.5s;
 }
+
+.input:hover{
+    cursor: pointer;
+}
+
+@media (min-width: 376px){
+    .input[type="button"]{
+        width: 380px;
+    }
+    
+}
+
+@media (max-width: 375px){
+    .group-buttons {
+        flex-direction: column;
+    }
+
+    .input-forms{
+        margin-right: 20px;
+    }
+
+    .group-buttons input{
+        width: 340px;
+    }
+
+    div .group-idade{
+        justify-content: flex-start;
+    }
+}
+
+
