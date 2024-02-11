@@ -6,15 +6,11 @@ input[type="search"] {
 	background-color: var(--input-fill-color);
 	border: 1px solid var(--input-border-color);
 	padding: 16px;
-	color: var(--placeholder-color);
+	font-size: 1rem;
+	color: var(--black);
 }
 
-::-webkit-input-placeholder {
-	/* Chrome/Opera/Safari */
-	color: var(--placeholder-color);
-}
-::-moz-placeholder {
-	/* Firefox 19+ */
+input[type="search"]::placeholder {
 	color: var(--placeholder-color);
 }
 

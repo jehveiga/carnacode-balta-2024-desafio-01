@@ -34,6 +34,10 @@ body {
 	padding: 4.2%;
 }
 
+.container-xs {
+	max-width: 375px;
+}
+
 .content {
 	display: flex;
 	position: relative;
@@ -59,7 +63,8 @@ body {
 	margin: 10px 15px;
 }
 
-.select-sexo, .select-sexo option {
+.select-sexo,
+.select-sexo option {
 	color: #666666;
 	font-size: 120%;
 }
@@ -136,11 +141,11 @@ body {
 	}
 }
 
-.group-idade{
+.group-idade {
 	margin-left: 10px;
 }
 
-.flex, .group-buttons {
+.flex,
+.group-buttons {
 	justify-content: center;
 }
-
