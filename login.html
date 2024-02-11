@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="preconnect" href="https://fonts.googleapis.com" />
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+	<link href="https://fonts.googleapis.com/css2?family=Inter:wght@500&display=swap" rel="stylesheet" />
+	<link rel="stylesheet" href="./css/app.css">
+	<title>Parabéns!</title>
+
+	<script defer src="https://kit.fontawesome.com/cac7eabb61.js" crossorigin="anonymous"></script>
+</head>
+
+<body class="bg-dark flex justify-content-center">
+	<main class="container container-xs flex-column align-items-center justify-content-center">
+		<div class="content modal-container">
+			<div class="modal">
+
+				<div class="default-logo">
+					<img src="./assets/icon-no-bg.png" alt="app-icon" />
+				</div>
+
+				<div class="modal-content">
+					<form>
+						<div>
+						  <h1 class="flex">Cálculo de IMC</h1>
+						</div>
+						<div>
+						  <div class="flex">
+							<input class="input-forms" type="number" placeholder="Altura" />
+						  </div>
+						  <div class="flex">
+							<input class="input-forms" type="number" placeholder="Peso" />
+						  </div>
+						  <div class="flex">
+							<select class="select-sexo input-forms" placeholder="Sexo">
+							  <option value="M">Masculino</option>
+							  <option value="F">Feminino</option>
+							</select>
+						  </div>
+						</div>
+						<div class="flex-column">
+						  <div class="flex group-idade">
+							<input class="input" type="checkbox" />
+							<span class="span-idade65">Eu tenho 65 anos ou mais</span>
+						  </div>
+						  <div class="flex group-buttons">
+							<input class="input-primary" type="button" value="Calcular meu IMC" />
+							<input class="input-light" type="button" value="Entenda o cálculo" />
+						  </div>
+						</div>
+					  </form>
+				</div>
+				
+			</div>
+		</div>
+	</main>
+</body>
+
+</html>

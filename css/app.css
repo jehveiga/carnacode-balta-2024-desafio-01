@@ -11,6 +11,11 @@
 	font-family: "Inter", sans-serif;
 }
 
+form{
+	width: 90%;
+	margin: 0 auto;
+}
+
 html {
 	height: 100dvh;
 	width: 100dvw;
