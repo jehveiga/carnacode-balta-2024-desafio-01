@@ -1,6 +1,9 @@
 @import url("flex.css");
 @import url("colors.css");
+@import url("logo.css");
 @import url("history.css");
+@import url("modal.css");
+@import url("button.css");
 
 * {
 	margin: 0;
@@ -43,7 +46,6 @@ body {
 	position: relative;
 	height: 100%;
 	width: 100%;
-	align-items: stretch;
 }
 
 .input-forms {
@@ -86,54 +88,14 @@ body {
 	margin-left: 5px;
 }
 
-.input[type="button"] {
-	border-radius: 30px;
-	font-weight: bold;
-	height: 50px;
-}
-
-.input-calcular {
-	background-color: #45fefe;
-	border: none;
-	margin: 5px 10px;
-	box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-	border-radius: 100px;
-}
-
-.input-entenda {
-	border: 3px solid #45fefe;
-	background-color: #ffffff;
-	margin: 10px;
-}
-
-.input-calcular:hover {
-	background-color: #35e6e6;
-	transition: 0.5s;
-}
-
 .input:hover {
 	cursor: pointer;
 	background-color: #36bebe;
 }
 
-@media (min-width: 376px) {
-	.input[type="button"] {
-		width: 380px;
-	}
-}
-
 @media (max-width: 375px) {
-	.group-buttons {
-		flex-direction: column;
-		align-items: center;
-	}
-
 	.input-forms {
 		margin-right: 20px;
-	}
-
-	.group-buttons input {
-		width: 95%;
 	}
 
 	div .group-idade {
@@ -145,7 +107,14 @@ body {
 	margin-left: 10px;
 }
 
-.flex,
-.group-buttons {
+.flex {
 	justify-content: center;
+}
+
+.fa-square-check {
+	color: green;
+}
+
+.fa-circle-minus {
+	color: red;
 }

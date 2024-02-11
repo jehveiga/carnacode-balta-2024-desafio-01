@@ -1,55 +1,46 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Inter:wght@500&display=swap"
-      rel="stylesheet"
-    />
-    <link rel="stylesheet" href="css/app.css" />
-    <title>IMC</title>
-  </head>
 
-  <body>
-    <form>
-      <div>
-        <h1 class="flex">Cálculo de IMC</h1>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@500&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="css/app.css" />
+  <title>IMC</title>
+</head>
+
+<body>
+  <form>
+    <div>
+      <h1 class="flex">Cálculo de IMC</h1>
+    </div>
+    <div>
+      <div class="flex">
+        <input class="input-forms" type="number" placeholder="Altura" />
       </div>
-      <div>
-        <div class="flex">
-          <input class="input-forms" type="number" placeholder="Altura" />
-        </div>
-        <div class="flex">
-          <input class="input-forms" type="number" placeholder="Peso" />
-        </div>
-        <div class="flex">
-          <select class="select-sexo input-forms" placeholder="Sexo">
-            <option value="M">Masculino</option>
-            <option value="F">Feminino</option>
-          </select>
-        </div>
+      <div class="flex">
+        <input class="input-forms" type="number" placeholder="Peso" />
       </div>
-      <div class="flex-column">
-        <div class="flex group-idade">
-          <input class="input" type="checkbox" />
-          <span class="span-idade65">Eu tenho 65 anos ou mais</span>
-        </div>
-        <div class="flex group-buttons">
-          <input
-            class="input input-calcular"
-            type="button"
-            value="Calcular meu IMC"
-          />
-          <input
-            class="input input-entenda"
-            type="button"
-            value="Entenda o cálculo"
-          />
-        </div>
+      <div class="flex">
+        <select class="select-sexo input-forms" placeholder="Sexo">
+          <option value="M">Masculino</option>
+          <option value="F">Feminino</option>
+        </select>
       </div>
-    </form>
-  </body>
+    </div>
+    <div class="flex-column">
+      <div class="flex group-idade">
+        <input class="input" type="checkbox" />
+        <span class="span-idade65">Eu tenho 65 anos ou mais</span>
+      </div>
+      <div class="flex group-buttons">
+        <input class="input-primary" type="button" value="Calcular meu IMC" />
+        <input class="input-light" type="button" value="Entenda o cálculo" />
+      </div>
+    </div>
+  </form>
+</body>
+
 </html>

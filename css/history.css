@@ -14,25 +14,9 @@ input[type="search"]::placeholder {
 	color: var(--placeholder-color);
 }
 
-.default-logo {
-	display: flex;
-	align-items: center;
-	justify-content: center;
-	width: 95px;
-	height: 95px;
-	border-radius: 25px;
-	border-style: solid;
-	border-color: var(--primary-color);
-
-	img {
-		width: 80%;
-		height: 80%;
-	}
-}
-
-.history-content {
+.history-container {
 	flex-direction: column;
-	align-items: center;
+	align-items: stretch;
 }
 
 .history-content > div {
@@ -43,6 +27,7 @@ input[type="search"]::placeholder {
 	display: flex;
 	flex-direction: column;
 	align-items: center;
+	padding-top: 20px;
 }
 
 .history-card {
