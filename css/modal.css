@@ -9,6 +9,19 @@
 	margin: 0 auto;
 }
 
+.modal-splash {
+	position: relative;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	background-color: var(--background-color-light);
+	border-radius: 25%;
+	border-style: solid;
+	border-color: var(--primary-color);
+	background-color: var(--white);
+	margin: 0 auto;
+}
+
 .texto{
 	justify-content: center;
 }
